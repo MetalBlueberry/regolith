@@ -271,9 +271,9 @@ set_from_resource $i3-wm.bar.font i3-wm.bar.font "pango:Source Code Pro Medium 1
 # Configure the bar
 bar {
   font $i3-wm.bar.font
-  separator_symbol " "
+  separator_symbol "|"
   status_command i3xrocks -c /etc/regolith/i3xrocks/config
-  tray_output none
+  tray_output primary
   strip_workspace_numbers yes
 
   colors {
